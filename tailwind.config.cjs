@@ -2,8 +2,17 @@
 module.exports = {
 	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
+		screens: {
+			xs: '375px',
+			sm: '425px',
+			md: '768px',
+			lg: '1024px',
+			xl: '1280px',
+			'2xl': '1536px',
+		},
 		colors: {
 			'orange-dark': '#FDA214',
+			'orange-light': '#FFB84A',
 			'blue-main': '#6395B8',
 			'light-blue': '#BCCED9',
 			'medium-blue': '#304859',

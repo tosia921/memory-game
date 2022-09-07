@@ -1,6 +1,6 @@
 import React from 'react';
 // Components
-import PageWrapper from '../components/pageWrapper';
+import PageWrapper from '../components/PageWrapper';
 import GameOptions from '../components/GameOptions';
 
 const Start = () => {

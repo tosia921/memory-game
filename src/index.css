@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer components {
+	* {
+		@apply font-Atkinson;
+	}
 	.option-button {
 		@apply bg-light-blue w-full py-1.5 rounded-3xl text-white-main text-normal md:text-md font-bold hover:bg-blue-main;
+	}
+	.circle-number {
+		@apply justify-self-center bg-dark-blue rounded-full aspect-square flex justify-center items-center h-[60px] xs:h-[72px] md:h-[90px] text-white-main font-bold text-lg md:text-xl;
 	}
 }
